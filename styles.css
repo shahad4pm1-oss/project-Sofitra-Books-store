@@ -1,0 +1,135 @@
+/* Page background and text */
+
+body {
+  background-color: beige;
+  color: brown;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Main title */
+
+h1 {
+  color: brown;
+  text-align: center;
+}
+
+/* Paragraphs */
+
+p {
+  color: #5c3d2e;
+  font-size: 16px;
+}
+
+/* Links */
+
+a {
+  color: brown;
+  text-decoration: none;
+}
+
+
+/* Button style */
+
+
+
+/* Link styled as button */
+
+a.button {
+  background: brown;
+  color: beige;
+  padding: 8px 16px;
+  border-radius: 5px;
+  display: inline-block;
+  font-weight: bold;
+  margin: 5px;
+  text-align: center;
+}
+
+
+/* Standardized Form Styles */
+form {
+  max-width: 500px;
+  margin: 20px auto;
+  background-color: #fdf5e6;
+  padding: 20px;
+  border: 1px solid brown;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  /* Stack vertically */
+  align-items: flex-start;
+  /* Align to left */
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid brown;
+  border-radius: 4px;
+}
+
+/* Navigation Bar */
+nav {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #fdf5e6;
+  border-bottom: 2px solid brown;
+}
+
+/* Button style */
+button,
+a.button {
+  background-color: brown;
+  color: beige;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  /* Slightly more rounded */
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+  font-size: 16px;
+}
+
+button:hover,
+a.button:hover {
+  background-color: #5c3d2e;
+  /* Darker brown on hover */
+  transform: translateY(-2px);
+  /* Subtle lift effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#card-details {
+  display: none;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 14px;
+  color: #5c3d2e;
+}
+
+
+
+label {
+  font-weight: bold;
+  color: brown;
+}
